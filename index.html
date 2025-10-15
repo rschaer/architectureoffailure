@@ -23,14 +23,31 @@
     }
     a:hover { border-bottom-color: #0055cc; }
     .button {
-      display: inline-block;
-      background: #0055cc;
-      color: white;
-      padding: 0.6em 1em;
-      border-radius: 6px;
-      text-decoration: none;
-    }
-    .button:hover { background: #003f99; }
+  display: inline-block;
+  background: #222;               
+  color: #f6f6f6;                 
+  padding: 0.6em 1.2em;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.95em;
+  letter-spacing: 0.03em;
+  transition: all 0.25s ease;
+  border: 1px solid #333;         
+}
+
+.button:hover {
+  background: #333;               
+  border-color: #444;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+.button:active {
+  background: #111;              
+  border-color: #222;
+  box-shadow: none;
+}
     .excerpt {
   max-width: 680px;
   margin: 5em auto;
